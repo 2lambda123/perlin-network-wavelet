@@ -10,35 +10,31 @@ require (
 	github.com/armon/go-radix v1.0.0
 	github.com/benpye/readline v0.0.0-20181117181432-5ff4ccac79cf
 	github.com/buaazp/fasthttprouter v0.1.1
-	github.com/chzyer/logex v1.1.10 // indirect
-	github.com/chzyer/test v0.0.0-20180213035817-a1ea475d72b1 // indirect
 	github.com/dgraph-io/badger/v2 v2.0.0
 	github.com/djherbis/buffer v1.1.0
 	github.com/fasthttp/websocket v1.4.0
-	github.com/gogo/protobuf v1.3.0
-	github.com/golang/protobuf v1.3.2
-	github.com/golang/snappy v0.0.1
-	github.com/gorilla/websocket v1.4.0
+	github.com/gogo/protobuf v1.3.2
+	github.com/golang/protobuf v1.5.3
+	github.com/golang/snappy v0.0.4
+	github.com/gorilla/websocket v1.4.1
 	github.com/huandu/skiplist v0.0.0-20180112095830-8e883b265e1b
 	github.com/minio/highwayhash v1.0.0
 	github.com/perlin-network/life v0.0.0-20190723115110-3091ed0c1be8
 	github.com/perlin-network/noise v1.1.1-0.20191113101947-c8dc081eafa7
 	github.com/phayes/freeport v0.0.0-20180830031419-95f893ade6f2
 	github.com/phf/go-queue v0.0.0-20170504031614-9abe38d0371d
-	github.com/pkg/errors v0.8.1
+	github.com/pkg/errors v0.9.1
 	github.com/rcrowley/go-metrics v0.0.0-20181016184325-3113b8401b8a
 	github.com/rs/zerolog v1.14.3
-	github.com/stretchr/testify v1.4.0
+	github.com/stretchr/testify v1.8.3
 	github.com/syndtr/goleveldb v1.0.0
 	github.com/valyala/bytebufferpool v1.0.0
-	github.com/valyala/fasthttp v1.3.0
+	github.com/valyala/fasthttp v1.34.0
 	github.com/valyala/fastjson v1.4.1
 	go.uber.org/atomic v1.5.0
-	golang.org/x/crypto v0.1.0
-	golang.org/x/net v0.1.0
-	golang.org/x/time v0.0.0-20190308202827-9d24e82272b4
-	google.golang.org/appengine v1.6.2 // indirect
-	google.golang.org/genproto v0.0.0-20190916214212-f660b8655731 // indirect
-	google.golang.org/grpc v1.25.0
+	golang.org/x/crypto v0.17.0
+	golang.org/x/net v0.10.0
+	golang.org/x/time v0.3.0
+	google.golang.org/grpc v1.56.3
 	gopkg.in/urfave/cli.v1 v1.20.0
 )
