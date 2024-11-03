@@ -1,3 +1,4 @@
+//go:build unit
 // +build unit
 
 package conf
@@ -11,7 +12,7 @@ import (
 
 func TestGet(t *testing.T) {
 	assert.EqualValues(t, 2, GetSnowballK())
-	assert.EqualValues(t, 150, GetSnowballBeta())
+	assert.EqualValues(t, 300, GetSnowballBeta())
 
 	assert.EqualValues(t, 0.8, GetSyncVoteThreshold())
 	assert.EqualValues(t, 0.8, GetFinalizationVoteThreshold())
